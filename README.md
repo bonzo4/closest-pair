@@ -1,10 +1,7 @@
 # Closest Pair of Points Problem
 
 ## Problem:
-Given a list of (x, y) coordinates on a cartesian plane, find the two points that have least euclidean distance.
-
-## Solution:
-1. Sort the list into decreasing
+Given a list of (x, y) coordinates on a cartesian plane, find the two points that have the least euclidean distance.
 
 ## Instructions
 Compile with: g++ -g $(find src/ -type f -iregex ".*\.cpp") -o closest-pair

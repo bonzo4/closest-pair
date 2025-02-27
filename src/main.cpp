@@ -1,6 +1,6 @@
 #include <algorithm>
 #include <iostream>
-#include<array>
+#include <array>
 
 #include "./point/Point.hpp"
 #include "./utils/readFile.hpp"

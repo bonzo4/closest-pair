@@ -108,7 +108,7 @@ ClosestPair closestPairInStrip(std::vector<Point> points_y, Point mid_point, dou
 
     // for all points in the strip
     for (int i = 0; i < strip_size - 1; i++) {
-        // and all other points in the strip up to 7 or the the size of strip
+        // and all other points in the strip up to 7
         for (int j = i + 1; j < std::min(i + 7, strip_size); j++) {
             // get the distance
             double distance = getDistance(strip[i], strip[j]);
